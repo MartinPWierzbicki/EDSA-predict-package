@@ -23,7 +23,7 @@ After the installation, import the package into python:
 
 import analysepredmpw as mw
 
-To perform recursive any of the recursive functions:
+###To perform any of the recursive functions:
 
 sum_array:
 
@@ -46,7 +46,7 @@ mw.recursion.reverse(string)
 
 
 
-To perform recursive any of the recursive functions:
+###To perform any of the sorting functions:
 
 bubble_sort:
 

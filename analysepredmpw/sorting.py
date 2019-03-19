@@ -1,6 +1,7 @@
 def bubble_sort(items):
 
     '''Return array of items, sorted in ascending order'''
+    ##More docstring and error handling to follow
     for i, num in enumerate(items):
         try:
             if items[i+1] < num:
@@ -15,6 +16,7 @@ def bubble_sort(items):
 def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
+    ##More docstring and error handling to follow
     def merge(list1, list2):
         new_list = []
         c1=c2=0
@@ -44,6 +46,7 @@ def merge_sort(items):
 def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
+    ##More docstring and error handling to follow
 
     len_i = len(items)
 

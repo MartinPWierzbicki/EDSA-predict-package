@@ -1,6 +1,7 @@
 def sum_array(array):
 
     '''Return sum of all items in array'''
+    ##More docstring and error handling to follow
     n = len(array)-1
     if n == 0:
         return array[n]
@@ -12,6 +13,7 @@ def sum_array(array):
 def fibonacci(n):
 
     '''Return nth term in fibonacci sequence'''
+    ##More docstring and error handling to follow
     if n <= 1:
         return n
 
@@ -22,6 +24,7 @@ def fibonacci(n):
 def factorial(n):
 
     '''Return n!'''
+    ##More docstring and error handling to follow
     if n == 1:
         return n
     else:
@@ -31,6 +34,7 @@ def factorial(n):
 def reverse(word):
 
     '''Return word in reverse'''
+    ##More docstring and error handling to follow
     n = len(word)-1
     if n == 0:
         return word[n]
